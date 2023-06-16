@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>digital clock</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="overflow-hidden bg-gradient-to-r from-green-600 to-orange-500">
+
+
+    <div class="w-[95%] h-[100vh] m-auto flex justify-center items-center">
+        <div class="max-[768px]:text-center max-[768px]:w-[100%] border-2 w-fit m-auto p-2.5 rounded-md text-white bg-[rgba(0, 0, 0, 0.1)]">
+            <h1 class="max-[768px]:block inline-block my-2.5 mx-2 font-bold text-6xl" id="dayID"></h1>
+            <h1 class="max-[768px]:block inline-block my-2.5 font-bold text-6xl" id="hourID"></h1>
+            <h1 class="inline-block my-2.5 font-bold text-6xl max-[768px]:hidden" id="bar1ID">|</h1>
+            <h1 class="max-[768px]:block inline-block my-2.5 font-bold text-6xl" id="minuteID"></h1>
+            <h1 class="inline-block my-2.5 font-bold text-6xl max-[768px]:hidden" id="bar2ID">|</h1>
+            <h1 class="max-[768px]:block inline-block my-2.5 font-bold text-6xl" id="ampmID"></h1>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
